@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 612 792" style="enable-background:new 0 0 612 792;" xml:space="preserve">
+<style type="text/css">
+	.st0{stroke:#000000;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st2{fill:none;}
+	.st3{fill:#FFFFFF;}
+	.st4{font-family:'MyriadPro-Semibold';}
+	.st5{font-size:12px;}
+	.st6{font-family:'MyriadPro-Regular';}
+	.st7{font-family:'MyriadPro-Cond';}
+	.st8{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
+</style>
+<g id="Layer_1">
+	<rect x="358" y="105" class="st0" width="199" height="15.3"/>
+	<rect x="62.1" y="105" class="st0" width="191.1" height="15.3"/>
+	<rect x="62.1" y="120.3" class="st1" width="191.1" height="45.3"/>
+	<rect x="358" y="120.3" class="st1" width="199" height="74.2"/>
+	<line class="st1" x1="80.7" y1="120.3" x2="80.7" y2="165.7"/>
+	<line class="st1" x1="146" y1="120.3" x2="146" y2="165.7"/>
+	<line class="st1" x1="375.7" y1="120.3" x2="375.7" y2="194.5"/>
+	<line class="st1" x1="445.7" y1="120.3" x2="445.7" y2="194.5"/>
+	<line class="st1" x1="511.3" y1="120.3" x2="511.3" y2="194.5"/>
+	<line class="st1" x1="209" y1="120.3" x2="209" y2="165.7"/>
+	<line class="st1" x1="253.1" y1="136.3" x2="62.1" y2="136.3"/>
+	<line class="st1" x1="253.1" y1="150.7" x2="62.1" y2="150.7"/>
+	<polyline class="st1" points="557,135.7 358,135.7 347.7,143 358,150.3 557,150.3 	"/>
+	<line class="st1" x1="557" y1="165" x2="358" y2="165"/>
+	<line class="st1" x1="557" y1="179.7" x2="358" y2="179.7"/>
+</g>
+<g id="Text">
+	<rect x="124.2" y="108" class="st2" width="66.7" height="15.3"/>
+	<text transform="matrix(1 0 0 1 143.4238 116.5199)" class="st3 st4 st5">Make</text>
+	<rect x="83.7" y="124.3" class="st2" width="74.7" height="56.7"/>
+	<text transform="matrix(1 0 0 1 83.6665 132.8535)"><tspan x="0" y="0" class="st4 st5">make_id</tspan><tspan x="0" y="14.4" class="st6 st5">make_code</tspan><tspan x="0" y="28.8" class="st6 st5">make_title</tspan></text>
+	<rect x="151.3" y="124.3" class="st2" width="59.3" height="56.7"/>
+	<text transform="matrix(1 0 0 1 151.3336 132.6372)"><tspan x="0" y="0" class="st7 st5">SERIAL</tspan><tspan x="0" y="14.4" class="st7 st5">VARCHAR(125)</tspan><tspan x="0" y="28.8" class="st7 st5">VARCHAR(125)</tspan></text>
+	<rect x="212.3" y="124.3" class="st2" width="59.3" height="56.7"/>
+	<text transform="matrix(1 0 0 1 212.3336 132.6372)"><tspan x="0" y="0" class="st7 st5">ID</tspan><tspan x="0" y="14.4" class="st7 st5">NOT NULL</tspan><tspan x="0" y="28.8" class="st7 st5">NOT NULL</tspan></text>
+	<rect x="57" y="124.3" class="st2" width="20.7" height="42.7"/>
+	<text transform="matrix(1 0 0 1 65.2108 132.8535)" class="st6 st5">pk</text>
+	<rect x="419.7" y="108" class="st2" width="66.7" height="15.3"/>
+	<text transform="matrix(1 0 0 1 436.5304 116.5199)" class="st3 st4 st5">Model</text>
+	<rect x="453" y="124.3" class="st2" width="59.3" height="78"/>
+	<text transform="matrix(1 0 0 1 452.9998 132.6372)"><tspan x="0" y="0" class="st7 st5">SERIAL</tspan><tspan x="0" y="14.4" class="st7 st5">NUMERIC(6,0)</tspan><tspan x="0" y="28.8" class="st7 st5">VARCHAR(125)</tspan><tspan x="0" y="43.2" class="st7 st5">VARCHAR(125)</tspan><tspan x="0" y="57.6" class="st7 st5">NUMERIC(4,0)</tspan></text>
+	<rect x="515" y="124.3" class="st2" width="59.3" height="78"/>
+	<text transform="matrix(1 0 0 1 514.9998 132.6372)"><tspan x="0" y="0" class="st7 st5">ID</tspan><tspan x="0" y="14.4" class="st7 st5">NOT NULL</tspan><tspan x="0" y="28.8" class="st7 st5">NOT NULL</tspan><tspan x="0" y="43.2" class="st7 st5">NOT NULL</tspan><tspan x="0" y="57.6" class="st7 st5">NOT NULL</tspan></text>
+	<rect x="353" y="124.3" class="st2" width="20.7" height="42.7"/>
+	<text transform="matrix(1 0 0 1 361.2108 132.8535)"><tspan x="0" y="0" class="st6 st5">pk</tspan><tspan x="3.3" y="14.4" class="st6 st5">fk</tspan></text>
+	<rect x="378.3" y="124.3" class="st2" width="74.7" height="78"/>
+	<text transform="matrix(1 0 0 1 378.3336 132.8535)"><tspan x="0" y="0" class="st4 st5">model_id</tspan><tspan x="0" y="14.4" class="st6 st5">make_id</tspan><tspan x="0" y="28.8" class="st6 st5">model_code</tspan><tspan x="0" y="43.2" class="st6 st5">model_title</tspan><tspan x="0" y="57.6" class="st6 st5">model_year</tspan></text>
+	<polyline class="st8" points="253.1,127.7 300.3,127.7 300.3,143 358,143 	"/>
+</g>
+</svg>
