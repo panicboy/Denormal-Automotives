@@ -33,7 +33,6 @@ CREATE TABLE IF NOT EXISTS car_model
 );
 
 \echo Modeling a Normalized Schema 6.
-DROP TABLE IF EXISTS car_models;
 
 INSERT INTO car_make (make_code, make_title)
   SELECT DISTINCT make_code, make_title
@@ -49,14 +48,38 @@ INSERT INTO car_model ( make_id, model_code, model_title, model_year)
     WHERE (car_make.make_code = car_models.make_code
       AND car_make.make_title = car_models.make_title);
 
+DROP TABLE IF EXISTS car_models;
 
 
+\echo Modeling a Normalized Schema 7.
+SELECT make_title
+  FROM car_make
+    ORDER BY make_title;
+
+\echo Modeling a Normalized Schema 8.
+SELECT DISTINCT model_title
+  FROM car_model
+  INNER JOIN car_make
+    ON car_model.make_id = car_make.make_id
+    AND car_make.make_code = 'VOLKS'
+    ORDER BY model_title;
 -- --   \d+ car_model;
 
-SELECT schemaname,relname,n_live_tup
-  FROM pg_stat_user_tables
-  ORDER BY n_live_tup DESC;
+\echo Modeling a Normalized Schema 9.
+SELECT DISTINCT make_code, model_code, model_title, model_year
+  FROM car_model
+  INNER JOIN car_make
+    ON car_model.make_id = car_make.make_id
+    AND car_make.make_code = 'LAM'
+    ORDER BY model_title;
 
+\echo Modeling a Normalized Schema 10.
+SELECT DISTINCT make_code, make_title, model_code, model_title, model_year
+  FROM car_model
+  INNER JOIN car_make
+    ON car_model.make_id = car_make.make_id
+    WHERE model_year BETWEEN 2010 AND 2015
+    ORDER BY make_code, model_code, model_year;
 
 
 
